@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.form-student, div.list-student{
+    width: 600px;
+    border: 3px solid #ccc;
+    padding: 20px;
+    margin: 150px;
+    /* padding-left: 50px; */
+    float: left;
+}
+
+h2{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+div.form-student label{
+    width: 200px;
+    float: left;
+
+}
+
+div.form-student input{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 5px;
+}
+
+div.form-student button{
+    margin: 20px;
+    width: 100px;
+    padding: 5px;
+}
+
+div.list-student td{
+    border: 2px solid #ccc;
+}
