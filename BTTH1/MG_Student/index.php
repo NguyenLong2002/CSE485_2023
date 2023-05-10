@@ -19,12 +19,14 @@
             <label>ID:</label>
             <input type="text" id="id-student" ><br>
 
-            <label>Họ và tên:</label>
+            <label>Name:</label>
             <input type="text" id="name" ><br>
 
-            <label>Tuổi:</label>
+            <label>Age:</label>
             <input type="text" id="age" ><br>
 
+            <label>Grade:</label>
+            <input type="text" id="grade" ><br>
             <!-- kí tự khoảng trắng -->
             <label>&nbsp;</label>
 
