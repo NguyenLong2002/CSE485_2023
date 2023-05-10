@@ -1,30 +1,49 @@
 <?php
+
 class Student {
-    //Khai báo thuộc tính
-    public $id;
-    public $name;
-    public $age;
+  public $id;
+  public $name;
+  public $age;
+  public $grade;
 
-    //Khai báo hàm khởi tạo (constructor)
-    public function getID(){
-        return $this->id;
-    } 
-    public function setID($id){
-       $this->id = $id;
-    } 
-    
-    public function getName(){
-        return $this->name;
-    } 
-    public function setName($name){
-       $this->name = $name;
-    } 
+  public function __construct($id, $name, $age, $grade) {
+    $this->id = $id;
+    $this->name = $name;
+    $this->age = $age;
+    $this->grade = $grade;
+  }
 
-    public function getAGE(){
-        return $this->age;
-    } 
-    public function setAGE($age){
-       $this->age = $age;
-    } 
+  public function getID() {
+    return $this->id;
+  }
 
+  public function getName() {
+    return $this->name;
+  }
+
+  public function getAge() {
+    return $this->age;
+  }
+
+  public function getGrade() {
+    return $this->grade;
+  }
+
+  public function setID($id) {
+    $this->id = $id;
+  }
+
+  public function setName($name) {
+    $this->name = $name;
+  }
+
+  public function setAge($age) {
+    $this->age = $age;
+  }
+
+  public function setGrade($grade) {
+    $this->grade = $grade;
+  }
 }
+?>
+
