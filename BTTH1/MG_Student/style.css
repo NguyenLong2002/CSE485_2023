@@ -4,10 +4,10 @@ body{
 }
 
 div.form-student, div.list-student{
-    width: 600px;
+    width: 50%;
     border: 3px solid #ccc;
     padding: 20px;
-    margin: 150px;
+    margin: 20px;
     /* padding-left: 50px; */
     float: left;
 }
