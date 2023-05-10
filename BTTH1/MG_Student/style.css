@@ -1,0 +1,36 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.form-student{
+    width: 600px;
+    border: 3px solid #ccc;
+    margin-left: 650px;
+    margin-top: 300px;
+    align-content: center;
+    padding: 20px;
+    
+}
+
+
+div.form-student label{
+    width: 200px;
+    float: left;
+
+}
+
+div.form-student input{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.form-student button{
+    margin: 20px;
+    width: 100px;
+    padding: 5px;
+}
