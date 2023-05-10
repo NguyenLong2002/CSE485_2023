@@ -1,39 +1,33 @@
+<?php
+include_once "ReadST.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
-    <title>BTTH_01</title>
+    <title>Danh sách sinh viên</title>
 </head>
 <body>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
-
-</h1>
-    <div class="form-student">
-        <h2>Thông tin sinh viên</h2>
-            <label>ID:</label>
-            <input type="text" id="id-student" ><br>
-
-            <label>Name:</label>
-            <input type="text" id="name" ><br>
-
-            <label>Age:</label>
-            <input type="text" id="age" ><br>
-
-            <label>Grade:</label>
-            <input type="text" id="grade" ><br>
-            <!-- kí tự khoảng trắng -->
-            <label>&nbsp;</label>
-
-            <a href="ReadSV.php"><button>Xem DS</button></a>
-            <button>Lưu</button>
-            
-    
-    </div>
+<h1 style="text-align: center;">Danh sách sinh viên</h1>
+<div>
+    <table  >
+        <?php
+        foreach( $students as $student){
+        ?>
+        <tr>
+            <td style="width:100px; text-align: center;"><?=$student->getId()?></td>
+            <td style="width:250px; text-align: center;"><?=$student->getName()?></td>
+            <td style="width:150px; text-align: center;"><?=$student->getAge()?></td>
+            <td style="width:150px; text-align: center;"><?=$student->getGrade()?></td>
+        </tr>
+        <?php 
+        }
+        ?>
+    </table>
+</div>
+    <a href="addST.php"><button >Add Student </button></a>
 </body>
 </html>

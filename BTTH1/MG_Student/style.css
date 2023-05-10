@@ -3,34 +3,43 @@ body{
     margin: 0px;
 }
 
-div.form-student{
+form{
     width: 600px;
     border: 3px solid #ccc;
     margin-left: 650px;
-    margin-top: 300px;
+    margin-top: 150px;
     align-content: center;
     padding: 20px;
     
 }
 
 
-div.form-student label{
+div label{
     width: 200px;
     float: left;
 
 }
 
-div.form-student input{
+div input{
     margin-bottom: 10px;
     width: 300px;
     padding: 5px;
 }
-h2{
-    text-align: center;
-    margin-bottom: 20px;
-}
-div.form-student button{
-    margin: 20px;
+
+div button{
+    margin-left: 150px;
     width: 100px;
     padding: 5px;
+}
+table{
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+    margin-left: 870px;
+    background-color: rgb(200, 162, 236);
 }
