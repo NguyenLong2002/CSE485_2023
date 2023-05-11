@@ -1,18 +1,21 @@
 <?php
 
 class Student {
+  //khai báo thuộc tính lớp sinh viên
   public $id;
   public $name;
   public $age;
   public $grade;
 
+  //khai báo hàm khởi tạo
   public function __construct($id, $name, $age, $grade) {
     $this->id = $id;
     $this->name = $name;
     $this->age = $age;
     $this->grade = $grade;
   }
-
+ 
+  //khai báo phương thức lớp sinh viên 
   public function getID() {
     return $this->id;
   }
