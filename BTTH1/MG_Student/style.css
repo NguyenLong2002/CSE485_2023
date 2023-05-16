@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+form{
+    width: 600px;
+    border: 3px solid #ccc;
+    margin-left: 650px;
+    margin-top: 150px;
+    align-content: center;
+    padding: 20px;
+    
+}
+
+
+div label{
+    width: 200px;
+    float: left;
+
+}
+
+div input{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 5px;
+}
+
+div.form-student button{
+    margin: 20px;
+    width: 100px;
+    padding: 5px;
+}
+
+div.list-student td{
+    border: 2px solid #ccc;
+}
+div button{
+    margin-left: 150px;
+    width: 100px;
+    padding: 5px;
+}
+table{
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+    margin-left: 870px;
+    background-color: rgb(200, 162, 236);
+}
